@@ -1,7 +1,7 @@
 ### Dotfiles
 --------------------
 ![Terminal](https://i.imgur.com/yswU2EP.png "Terminal")
-![Double Commander](https://i.imgur.com/qco0R9F.png "Double Commander")
+![Double Commander](https://i.imgur.com/mucIFnM.png "Double Commander")
 
 ### Installation
 --------------------
