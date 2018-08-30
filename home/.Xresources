@@ -1,0 +1,78 @@
+! ~/.Xresources
+
+! Sets the $TERM variable
+URxvt.termName:         rxvt-unicode-256color
+
+! Scrollbar
+URxvt.scrollBar:        False
+
+! Fonts
+URxvt.font:             xft:DejaVu Sans Mono for Powerline Nerd Font:style=Book:size=11
+URxvt.boldFont:         xft:DejaVu Sans Mono for Powerline Nerd Font:bold:style=Book:size=11
+URxvt.letterSpace:      -1
+
+! Lines limit of history to save
+URxvt.saveLines:        4095
+
+! Perl extensions
+URxvt.perl-ext-common:  default,matcher,fullscreen
+
+! Open urls in browser with Control-Click
+URxvt.url-launcher:     /usr/bin/chromium
+URxvt.underlineURLs:    true
+URxvt.matcher.button:   1
+
+! Fullscreen
+URxvt.keysym.F11: perl:fullscreen:switch
+
+! Adds an internal border to the terminal
+URxvt.borderColor:      #282C34
+URxvt.internalBorder:   0
+URxvt.externalBorder:   0
+
+! Colors
+URxvt.background:       #282C34
+URxvt.foreground:       #ABB2BF
+URxvt.colorUL:          #61AFEF
+URxvt.color0:           #282C34
+URxvt.color1:           #BE5046
+URxvt.color2:           #98C379
+URxvt.color3:           #D19A66
+URxvt.color4:           #61AFEF
+URxvt.color5:           #C678DD
+URxvt.color6:           #56B6C2
+URxvt.color7:           #5A616D
+URxvt.color8:           #3E4452
+URxvt.color9:           #E06C75
+URxvt.color10:          #98C379
+URxvt.color11:          #E5C07B
+URxvt.color12:          #61AFEF
+URxvt.color13:          #C678DD
+URxvt.color14:          #56B6C2
+URxvt.color15:          #ABB2BF
+
+! Cursor
+URxvt.cursorBlink:      true
+URxvt.cursorColor:      #ABB2BF
+URxvt.cursorUnderline:  false
+
+! Pointer
+URxvt.pointerBlank:     true
+
+! Disables the insanely annoying Ctrl+Shift shortcut that enters ISO14755 mode
+URxvt.iso14755:         False
+
+! Create the window with the specified X window geometry
+URxvt.geometry:         100x32
+
+! Turn on/off pseudo-transparency by using the root pixmap as background.
+URxvt.transparent:      false
+
+! Fade the text by the given percentage when focus is lost
+URxvt.fading:           0
+
+! De-iconify (map) on receipt of a bell character
+URxvt.urgentOnBell:     false
+
+! Use visual bell on receipt of a bell character
+URxvt.visualBell:       false

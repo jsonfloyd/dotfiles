@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Rxvt Color Unicode Terminal with Tmux
+Comment=Use the command line
+TryExec=urxvt-tmux
+Exec=urxvt-tmux
+Icon=utilities-terminal
+Categories=Utility;
+StartupNotify=true
+Keywords=Run;

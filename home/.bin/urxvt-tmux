@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec urxvt -e bash -c "tmux attach || tmux new-session"
